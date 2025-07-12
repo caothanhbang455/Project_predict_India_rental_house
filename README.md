@@ -38,19 +38,20 @@ The objective is to build a **Linear Regression model** that accurately predicts
 
 ### 1. Exploratory Data Analysis (EDA)
 - Checked for **missing values**
-- **Visualized distributions** of price, size, and number of rooms
-- Created **correlation matrix** and **pairplots** to explore relationships
+- analyze univariable 
+- analyze bivariate (category with category, category with continous, continuous with continuous)
+- apply anova table to check the independency
 - Identified skewness and outliers in price
 
 ### 2. Data Cleaning & Preprocessing
 - Handled missing data and incorrect types
-- Encoded categorical features (e.g., `Negotiable`, `House Type`)
-- Applied **log transformation** to `Price` for normalization
+- Detect outlier, then processing
+- sketch graphs for visualizing
 
 ### 3. Feature Engineering
-- Created `Price per Square Foot` metric
-- Removed redundant columns
-- Scaled numerical features for modeling
+- applying one-hot encode and label encode
+- applying both min_max scaler for non outliers
+- applying both robust scaler for outliers
 
 ### 4. Linear Regression Model
 - Train/Test split (80/20)
