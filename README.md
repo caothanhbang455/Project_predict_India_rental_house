@@ -17,7 +17,7 @@ The objective is to build a **Linear Regression model** that accurately predicts
 - **Source**: Provided by instructor
 - **Size**: ~5,000 records
 
-### 🗂Feature Dictionary
+### Feature Dictionary
 
 | Feature                | Description                                              |
 |------------------------|----------------------------------------------------------|
@@ -73,7 +73,7 @@ The objective is to build a **Linear Regression model** that accurately predicts
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 - The best result is the model at case 1.1 (model11) with high R^2 in both 
 train and test set, but rmse in train test is highest in 4 cases.
@@ -112,5 +112,5 @@ pip install --upgrade pip
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 # Install additional custom packages
-pip install TTHH_Analyzer
+pip install pip install ttth-mds5-analyzer
 pip install preprocess
