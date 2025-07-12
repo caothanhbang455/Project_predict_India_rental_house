@@ -112,5 +112,5 @@ pip install --upgrade pip
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 # Install additional custom packages
-pip install pip install ttth-mds5-analyzer
+pip install ttth-mds5-analyzer
 pip install preprocess
